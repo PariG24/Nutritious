@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7EC3E3F2A4FB89900821EE2 /* EL_NutritiousApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3E3E2A4FB89900821EE2 /* EL_NutritiousApp.swift */; };
+		D7EC3E412A4FB89900821EE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3E402A4FB89900821EE2 /* ContentView.swift */; };
+		D7EC3E432A4FB89B00821EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EC3E422A4FB89B00821EE2 /* Assets.xcassets */; };
+		D7EC3E462A4FB89B00821EE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7EC3E452A4FB89B00821EE2 /* Preview Assets.xcassets */; };
+		D7EC3E502A4FB89B00821EE2 /* EL_NutritiousTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3E4F2A4FB89B00821EE2 /* EL_NutritiousTests.swift */; };
+		D7EC3E5A2A4FB89B00821EE2 /* EL_NutritiousUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3E592A4FB89B00821EE2 /* EL_NutritiousUITests.swift */; };
+		D7EC3E5C2A4FB89B00821EE2 /* EL_NutritiousUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7EC3E5B2A4FB89B00821EE2 /* EL_NutritiousUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7EC3E4C2A4FB89B00821EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7EC3E332A4FB89900821EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7EC3E3A2A4FB89900821EE2;
+			remoteInfo = "EL Nutritious";
+		};
+		D7EC3E562A4FB89B00821EE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7EC3E332A4FB89900821EE2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7EC3E3A2A4FB89900821EE2;
+			remoteInfo = "EL Nutritious";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7EC3E3B2A4FB89900821EE2 /* EL Nutritious.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EL Nutritious.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EC3E3E2A4FB89900821EE2 /* EL_NutritiousApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EL_NutritiousApp.swift; sourceTree = "<group>"; };
+		D7EC3E402A4FB89900821EE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7EC3E422A4FB89B00821EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7EC3E452A4FB89B00821EE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7EC3E4B2A4FB89B00821EE2 /* EL NutritiousTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EL NutritiousTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EC3E4F2A4FB89B00821EE2 /* EL_NutritiousTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EL_NutritiousTests.swift; sourceTree = "<group>"; };
+		D7EC3E552A4FB89B00821EE2 /* EL NutritiousUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EL NutritiousUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7EC3E592A4FB89B00821EE2 /* EL_NutritiousUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EL_NutritiousUITests.swift; sourceTree = "<group>"; };
+		D7EC3E5B2A4FB89B00821EE2 /* EL_NutritiousUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EL_NutritiousUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7EC3E382A4FB89900821EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E482A4FB89B00821EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E522A4FB89B00821EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7EC3E322A4FB89900821EE2 = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E3D2A4FB89900821EE2 /* EL Nutritious */,
+				D7EC3E4E2A4FB89B00821EE2 /* EL NutritiousTests */,
+				D7EC3E582A4FB89B00821EE2 /* EL NutritiousUITests */,
+				D7EC3E3C2A4FB89900821EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7EC3E3C2A4FB89900821EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E3B2A4FB89900821EE2 /* EL Nutritious.app */,
+				D7EC3E4B2A4FB89B00821EE2 /* EL NutritiousTests.xctest */,
+				D7EC3E552A4FB89B00821EE2 /* EL NutritiousUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7EC3E3D2A4FB89900821EE2 /* EL Nutritious */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E3E2A4FB89900821EE2 /* EL_NutritiousApp.swift */,
+				D7EC3E402A4FB89900821EE2 /* ContentView.swift */,
+				D7EC3E422A4FB89B00821EE2 /* Assets.xcassets */,
+				D7EC3E442A4FB89B00821EE2 /* Preview Content */,
+			);
+			path = "EL Nutritious";
+			sourceTree = "<group>";
+		};
+		D7EC3E442A4FB89B00821EE2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E452A4FB89B00821EE2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7EC3E4E2A4FB89B00821EE2 /* EL NutritiousTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E4F2A4FB89B00821EE2 /* EL_NutritiousTests.swift */,
+			);
+			path = "EL NutritiousTests";
+			sourceTree = "<group>";
+		};
+		D7EC3E582A4FB89B00821EE2 /* EL NutritiousUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7EC3E592A4FB89B00821EE2 /* EL_NutritiousUITests.swift */,
+				D7EC3E5B2A4FB89B00821EE2 /* EL_NutritiousUITestsLaunchTests.swift */,
+			);
+			path = "EL NutritiousUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7EC3E3A2A4FB89900821EE2 /* EL Nutritious */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7EC3E5F2A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL Nutritious" */;
+			buildPhases = (
+				D7EC3E372A4FB89900821EE2 /* Sources */,
+				D7EC3E382A4FB89900821EE2 /* Frameworks */,
+				D7EC3E392A4FB89900821EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EL Nutritious";
+			productName = "EL Nutritious";
+			productReference = D7EC3E3B2A4FB89900821EE2 /* EL Nutritious.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7EC3E4A2A4FB89B00821EE2 /* EL NutritiousTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7EC3E622A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL NutritiousTests" */;
+			buildPhases = (
+				D7EC3E472A4FB89B00821EE2 /* Sources */,
+				D7EC3E482A4FB89B00821EE2 /* Frameworks */,
+				D7EC3E492A4FB89B00821EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7EC3E4D2A4FB89B00821EE2 /* PBXTargetDependency */,
+			);
+			name = "EL NutritiousTests";
+			productName = "EL NutritiousTests";
+			productReference = D7EC3E4B2A4FB89B00821EE2 /* EL NutritiousTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7EC3E542A4FB89B00821EE2 /* EL NutritiousUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7EC3E652A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL NutritiousUITests" */;
+			buildPhases = (
+				D7EC3E512A4FB89B00821EE2 /* Sources */,
+				D7EC3E522A4FB89B00821EE2 /* Frameworks */,
+				D7EC3E532A4FB89B00821EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7EC3E572A4FB89B00821EE2 /* PBXTargetDependency */,
+			);
+			name = "EL NutritiousUITests";
+			productName = "EL NutritiousUITests";
+			productReference = D7EC3E552A4FB89B00821EE2 /* EL NutritiousUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7EC3E332A4FB89900821EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					D7EC3E3A2A4FB89900821EE2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					D7EC3E4A2A4FB89B00821EE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D7EC3E3A2A4FB89900821EE2;
+					};
+					D7EC3E542A4FB89B00821EE2 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = D7EC3E3A2A4FB89900821EE2;
+					};
+				};
+			};
+			buildConfigurationList = D7EC3E362A4FB89900821EE2 /* Build configuration list for PBXProject "EL Nutritious" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7EC3E322A4FB89900821EE2;
+			productRefGroup = D7EC3E3C2A4FB89900821EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7EC3E3A2A4FB89900821EE2 /* EL Nutritious */,
+				D7EC3E4A2A4FB89B00821EE2 /* EL NutritiousTests */,
+				D7EC3E542A4FB89B00821EE2 /* EL NutritiousUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7EC3E392A4FB89900821EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EC3E462A4FB89B00821EE2 /* Preview Assets.xcassets in Resources */,
+				D7EC3E432A4FB89B00821EE2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E492A4FB89B00821EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E532A4FB89B00821EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7EC3E372A4FB89900821EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EC3E412A4FB89900821EE2 /* ContentView.swift in Sources */,
+				D7EC3E3F2A4FB89900821EE2 /* EL_NutritiousApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E472A4FB89B00821EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EC3E502A4FB89B00821EE2 /* EL_NutritiousTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7EC3E512A4FB89B00821EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EC3E5A2A4FB89B00821EE2 /* EL_NutritiousUITests.swift in Sources */,
+				D7EC3E5C2A4FB89B00821EE2 /* EL_NutritiousUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7EC3E4D2A4FB89B00821EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7EC3E3A2A4FB89900821EE2 /* EL Nutritious */;
+			targetProxy = D7EC3E4C2A4FB89B00821EE2 /* PBXContainerItemProxy */;
+		};
+		D7EC3E572A4FB89B00821EE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7EC3E3A2A4FB89900821EE2 /* EL Nutritious */;
+			targetProxy = D7EC3E562A4FB89B00821EE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7EC3E5D2A4FB89B00821EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7EC3E5E2A4FB89B00821EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7EC3E602A4FB89B00821EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EL Nutritious/Preview Content\"";
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-Nutritious";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7EC3E612A4FB89B00821EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EL Nutritious/Preview Content\"";
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-Nutritious";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7EC3E632A4FB89B00821EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-NutritiousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EL Nutritious.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EL Nutritious";
+			};
+			name = Debug;
+		};
+		D7EC3E642A4FB89B00821EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-NutritiousTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EL Nutritious.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EL Nutritious";
+			};
+			name = Release;
+		};
+		D7EC3E662A4FB89B00821EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-NutritiousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EL Nutritious";
+			};
+			name = Debug;
+		};
+		D7EC3E672A4FB89B00821EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8R88TDZ27;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.EL-NutritiousUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "EL Nutritious";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7EC3E362A4FB89900821EE2 /* Build configuration list for PBXProject "EL Nutritious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EC3E5D2A4FB89B00821EE2 /* Debug */,
+				D7EC3E5E2A4FB89B00821EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7EC3E5F2A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL Nutritious" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EC3E602A4FB89B00821EE2 /* Debug */,
+				D7EC3E612A4FB89B00821EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7EC3E622A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL NutritiousTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EC3E632A4FB89B00821EE2 /* Debug */,
+				D7EC3E642A4FB89B00821EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7EC3E652A4FB89B00821EE2 /* Build configuration list for PBXNativeTarget "EL NutritiousUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7EC3E662A4FB89B00821EE2 /* Debug */,
+				D7EC3E672A4FB89B00821EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7EC3E332A4FB89900821EE2 /* Project object */;
+}
