@@ -11,7 +11,7 @@ import SwiftUI
 struct EL_NutritiousApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+           WelcomeView()
         }
     }
 }
