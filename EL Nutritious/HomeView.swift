@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
+    @Environment(\.openURL) var openURL
     var body: some View {
         VStack{
          Text("YOUR NUTRITIOUS REGIMEN")
@@ -84,6 +85,29 @@ struct HomeView: View {
                             Text("Say goodbye to dry skin with pillowy-soft New Nutritious Melting Soft Creme/Mask. Quenches with soothing hydration. Calms. Renews. Strengthens.")
                                 .foregroundColor(Color(hue: 0.936, saturation: 0.082, brightness: 0.495))
                             
+                        }
+                        .padding()
+                        .background(Rectangle()
+                            .foregroundColor(Color(red: 0.9764705882352941, green: 0.7529411764705882, blue: 0.796078431372549)))
+                        .cornerRadius(15)
+                        .shadow(radius: 15)
+                        .padding()
+                    }
+                    ZStack{
+                        VStack(spacing: 20.0) {
+                            
+                            Image("GAME")
+                                .resizable()
+                                .aspectRatio(contentMode: .fit)
+                            Text("Play Now! ")
+                                .font(.title)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color(red: 0.9725490196078431, green: 0.9294117647058824, blue: 0.9176470588235294))
+                            Text("Just click on the link below to get redirected to our game! ")
+                                .foregroundColor(Color(hue: 0.936, saturation: 0.082, brightness: 0.495))
+                            Button("Click Here To Play") {
+                                openURL(URL(string: "https://www.esteelauder.com/estee-lauder-game")!)
+                            }
                         }
                         .padding()
                         .background(Rectangle()
